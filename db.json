@@ -1,0 +1,74 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Aarav Sharma",
+      "age": 34,
+      "gender": "Male",
+      "disease": "Hypertension",
+      "doctor": "Dr. Meera Rao",
+      "status": "Admitted"
+    },
+    {
+      "id": "2",
+      "name": "Priya Nair",
+      "age": 28,
+      "gender": "Female",
+      "disease": "Asthma",
+      "doctor": "Dr. Rohan Kapoor",
+      "status": "Stable"
+    },
+    {
+      "id": "3",
+      "name": "Kabir Malhotra",
+      "age": 52,
+      "gender": "Male",
+      "disease": "Diabetes",
+      "doctor": "Dr. Sana Khan",
+      "status": "Under Observation"
+    },
+    {
+      "id": "4",
+      "name": "Ananya Gupta",
+      "age": 41,
+      "gender": "Female",
+      "disease": "Migraine",
+      "doctor": "Dr. Arjun Menon",
+      "status": "Discharged"
+    },
+    {
+      "id": "5",
+      "name": "Vikram Patel",
+      "age": 67,
+      "gender": "Male",
+      "disease": "Cardiac Pain",
+      "doctor": "Dr. Meera Rao",
+      "status": "Critical"
+    },
+    {
+      "id": "6",
+      "name": "Neha Iyer",
+      "age": 23,
+      "gender": "Female",
+      "disease": "Fever",
+      "doctor": "Dr. Rohan Kapoor",
+      "status": "Stable"
+    }
+  ],
+  "doctors": [
+    { "id": "1", "name": "Dr. Meera Rao", "department": "Cardiology" },
+    { "id": "2", "name": "Dr. Rohan Kapoor", "department": "Pulmonology" },
+    { "id": "3", "name": "Dr. Sana Khan", "department": "Endocrinology" },
+    { "id": "4", "name": "Dr. Arjun Menon", "department": "Neurology" }
+  ],
+  "appointments": [
+    { "id": "1", "patientName": "Aarav Sharma", "doctor": "Dr. Meera Rao", "date": "2026-07-04" },
+    { "id": "2", "patientName": "Priya Nair", "doctor": "Dr. Rohan Kapoor", "date": "2026-07-04" },
+    { "id": "3", "patientName": "Kabir Malhotra", "doctor": "Dr. Sana Khan", "date": "2026-07-05" }
+  ],
+  "beds": [
+    { "id": "1", "ward": "General", "available": 18 },
+    { "id": "2", "ward": "ICU", "available": 5 },
+    { "id": "3", "ward": "Emergency", "available": 9 }
+  ]
+}

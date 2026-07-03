@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: medical-website-react-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm run server:render

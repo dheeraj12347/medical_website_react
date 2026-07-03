@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000",
+    "server:render": "json-server db.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "@emotion/react": "latest",
@@ -22,6 +23,5 @@
     "react-hook-form": "latest",
     "react-router-dom": "latest",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }
